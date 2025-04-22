@@ -8,7 +8,7 @@ public class DBConnection {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             return DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/devopsdb", "root", "your_password"
+                "jdbc:mysql://localhost:3306/devopsdb", "root", "admin123"
             );
         } catch (Exception e) {
             e.printStackTrace();
